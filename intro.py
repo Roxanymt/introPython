@@ -80,4 +80,5 @@ lista_alumnas = [
     {"nombre":"Pedro", "apellido":"Páramo", "id":345, "cursos":["Fundamentos de la Web", "Pyhton","MERN","Java"]}
 ]
 lista_alumnas[2]["cursos"].pop(2)  #borra MERN de Pedro 
+from pprint import pprint #libreria que hace impresionas mas ordenadas
 print(lista_alumnas)
