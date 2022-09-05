@@ -73,3 +73,11 @@ diccionario.pop('estatura') #se elimina la propiedad
 print(diccionario)
 edad = diccionario.pop('edad') #eliminamos de diccionario la propiedad y el valor queda asignado en la variable
 print(diccionario)
+
+lista_alumnas = [
+    {"nombre":"Elena", "apellido":"De Troya", "id":123, "cursos":["Fundamentos de la Web", "Pyhton"]},
+    {"nombre":"Juana", "apellido":"De Arco", "id":234, "cursos":["Fundamentos de la Web", "Pyhton","MERN"]},
+    {"nombre":"Pedro", "apellido":"Páramo", "id":345, "cursos":["Fundamentos de la Web", "Pyhton","MERN","Java"]}
+]
+lista_alumnas[2]["cursos"].pop(2)  #borra MERN de Pedro 
+print(lista_alumnas)
