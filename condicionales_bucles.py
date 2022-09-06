@@ -25,3 +25,20 @@ else:
 
 if x < 5: #se puede tener solo una condicion, si no se cumple simplemente no se ejecuta
     print("Menor a 5")
+
+i = 10
+if(i > 5 and i % 2 == 0 and i % 5 == 0):  #mayor a 5, multiplo de 2 y multiplo de 5 
+    print("Se cumple con las 3 condicionales")
+
+#Bucles o Ciclos
+for i in range(5): #bucle que comienza en 0 hasta el 4 (uno menos del número en range)
+    print(i) #imprime 0 1 2 3 4 
+
+print('--------------------')
+for j in range(1, 5): #range comienza en 1 y termina en 4
+    print(j)#valor de j se declara dentro de la variable
+
+print('--------------------')
+
+for k in range(0, 10, 2): #primero es comienzo, segundo donde termina, tercero cada cuanto avanza
+    print(k)
