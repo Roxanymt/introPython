@@ -42,3 +42,41 @@ print('--------------------')
 
 for k in range(0, 10, 2): #primero es comienzo, segundo donde termina, tercero cada cuanto avanza
     print(k)
+
+#Se puede recorrer un texto
+string = "Buenos días"
+for letra in string: #por cada letra que existe en string se imprime una letra, el espacio tambien lo reconoce como letra
+    print(letra)
+
+# array =['A', 'B', 'C', 'D']
+#for(var i=0; i<array.lenght; i++){
+#    console.log(array[i])
+#}
+#for elemento in array: #recorrer una lista
+#    print(elemento)
+
+#total = 0
+#gasto = 10
+#total= 0 + 10 = 10
+#gasto = 20
+#total = 10 + 20 = 30
+#gasto = 30
+#total = 30 + 30 = 60
+#gasto = 10
+#total= 60 + 10 = 70
+
+
+gastos = [10, 20, 30, 10]
+total = 0
+for gasto in gastos:
+    total += gasto
+
+print(total)
+
+array =['A', 'B', 'C', 'D']
+for i in range(0, len(array)): #para saber el indice o posicion del arreglo
+    print(i, array[i])
+
+diccionario = {"nombre": "Elena", "apellido": "De Troya", "edad":31}
+for llave in diccionario:
+    print(llave, diccionario[llave])
