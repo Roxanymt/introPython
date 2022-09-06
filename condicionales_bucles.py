@@ -80,3 +80,18 @@ for i in range(0, len(array)): #para saber el indice o posicion del arreglo
 diccionario = {"nombre": "Elena", "apellido": "De Troya", "edad":31}
 for llave in diccionario:
     print(llave, diccionario[llave])
+
+y = 0
+while y < 3:
+    print(y)
+    y += 1  #aumenta en 1 la y 
+else:
+    print("Sentencia else final")
+
+num = 1
+while num < 15:
+    print(num)
+    num+=2
+else: 
+    print("Ya no entra al ciclo porque el número es",num)
+
