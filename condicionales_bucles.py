@@ -95,3 +95,13 @@ while num < 15:
 else: 
     print("Ya no entra al ciclo porque el número es",num)
 
+#BREAK interrumpción completa del bucle. Al ecister un break el bucle se termina de ejecutar.
+
+#CONTINUE: es una interrumpción solo de esa ronda del bucle. Cuando existe el bucle ignora esa ronda y continue a la siguiente
+
+#RETO 1
+#dado un for y recorriendo del 1 al 15, imprime todos los números excepto aquellos múltiplos de 5  uso de brak o continue
+
+#Reto 2
+#dad una cadena imprime cada uno de los caracteres y detente cuando se encuentra un punto. uso de BREAK
+cadena1 ="Había una vez una niña. Esa niña quería aprender Python"
